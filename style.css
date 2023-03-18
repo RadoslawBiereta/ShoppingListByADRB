@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-size: 18px;
+}
+
+.main {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .appName {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.appName {
+    width: 100%;
+    justify-content: left;
+    font-size: 2.5rem;
+    font-family: cursive;
+}
+
+
+.additem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#formadd {
+    display:block;
+}
+
+.additem label {
+    font-size: 1rem;
+}
+
+.additem input {
+    margin: 0.5rem 0;  
+    border-radius: 1rem;
+    border: 2px solid black;
+    height: 1.5rem;
+    text-align: center;
+    outline: none;
+}
+
+#quantity {
+    margin: 0;
+    border-radius: 1rem;
+    border: none;
+    text-align: center;
+    outline: none;
+}
+
+.additem select {
+    width: 3rem;
+    height: 1.5rem;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+}
+
+.addquantity {
+    border-radius: 1rem;
+    border: 2px solid black;
+}
+#quantityName{
+   background: transparent;
+}
+.subbtn {
+    width: 190px;
+    border-radius: 3rem;
+    border: 2px solid black;
+    margin: 0.5rem 0px;
+    padding: 0.2rem 0px;
+    outline: none;
+    background-color: #009b77;
+    color: white;
+}
+
+.listhead {
+    position: relative;
+    font-size: 1.5rem;
+}
+
+#showlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.showitem {
+    display: flex;
+    margin: 1rem 1.5rem 1rem 1.5rem;
+    flex-direction:column;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 1rem;
+    padding: 1.5rem 1.5rem;
+}
+.delitem{
+    margin-top: 0.5rem;
+    width: 12rem;
+    border-radius: 3rem;
+    border: 1px solid black;
+    background-color: #ec500e;
+    color: white;
+}
+#checkbox{
+margin-top: 0.5rem;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#checkbox input{
+margin-left: 0.5rem;
+width: 1.2rem;
+height: 1.2rem;
+}
