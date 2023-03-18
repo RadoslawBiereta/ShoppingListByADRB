@@ -3,22 +3,30 @@
   <title>Shopping List</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+<body>
   <div class="main">
-      <p class="appName">Shopping List</p>
-      <div class="additem">
-          <form>
-          <form id="formadd">
-              <label>Dodaj produkt do Listy Zakupów:</label><br>
-              <input type="text" placeholder="Nazwa produktu" id="itemName">
-              <div class="addquantity">
-              <button type="submit" class="subbtn" id="additem">Dodaj do zakupów</button>
-          </form>
-      </div>
-      <!-- Twoja Lista Zakupów tutaj -->
-      <p class="listhead">Twoja Lista Zakupów</p>
-      <div id="showlist">
+    <p class="appName">LISTA ZAKUPÓW</p>
+    <div class="additem">
+        <form>
+            <label>Dodaj potrzebny produkt:</label><br>
+            <input type="text" placeholder="Wpisz nazwę produktu" id="itemName">
+            <div class="addquantity">
+                <input type="number" placeholder="Wpisz ilość" id="quantity">
+                <select id="quantityName">
+                    <option value="szt" selected>szt</option>
+                    <option value="kg">kg</option>
+                    <option value="gm">g</option>
+                </select>
+            </div>
+            <button type="submit" class="subbtn" id="additem">Dodaj produkt do listy</button>
+        </form>
+    </div>
+    <!-- LISTA ZAKUPÓW tutaj -->
+    <p class="listhead">Lista potrzebnych zakupów:</p>
+    <div id="showlist">
 
-      </div>
+    </div>
+</body>
   <footer><p><p>Copyright © 2023 Anna Drobek & Radosław Biereta</p></p></footer>
 </body>
 <script src="plik_javascript.js"></script>
