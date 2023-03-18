@@ -1,16 +1,24 @@
-<!DOCTYPE html>
-<html lang="pl-PL">
 <head>
   <meta charset="UTF-8">
+  <title>List Maker</title>
   <title>Shopping List</title>
 </head>
-<body>
   <div class="main">
-    <p>Shopping List</p>
-  </div>
-  <!-- Twoja Lista Zakupów tutaj będzie-->
-  <p>Twoja Lista Zakupów</p>
-  <div id="showlist">
-  </div>
+      <p class="appName">Shopping List</p>
+      <div class="additem">
+          <form>
+          <form id="formadd">
+              <label>Dodaj produkt do Listy Zakupów:</label><br>
+              <input type="text" placeholder="Nazwa produktu" id="itemName">
+              <div class="addquantity">
+              <button type="submit" class="subbtn" id="additem">Dodaj do zakupów</button>
+          </form>
+      </div>
+      <!-- Twoja Lista Zakupów tutaj -->
+      <p class="listhead">Twoja Lista Zakupów</p>
+      <div id="showlist">
+
+      </div>
   <footer><p><p>Copyright © 2023 Anna Drobek & Radosław Biereta</p></p></footer>
 </body>
+</html>
